@@ -10,7 +10,7 @@ const Footer = () => {
                 Mohammed Mbarak
               </h3>
               <p className="text-gray-300">
-                Full-Stack Developer | Cybersecurity Enthusiast
+                Full-Stack Developer | Cybersecurity Specialist
               </p>
               <p className="text-gray-400">
                 Building high-fidelity, responsive web applications with a focus on performance, accessibility, and user experience.
