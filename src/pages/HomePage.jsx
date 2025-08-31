@@ -4,7 +4,7 @@ import ProfessionalStatement from '../components/Home/ProfessionalStatement';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-br from-blue-50 via-indigo-50 to-cyan-50 min-h-screen">
       <HeroSection />
       <ProfessionalStatement />
     </div>
