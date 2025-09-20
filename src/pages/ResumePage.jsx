@@ -1,8 +1,8 @@
-// src/pages/ResumePage.jsx
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Certifications from '../components/Resume/Certifications';
+import DownloadCVButton from '../components/ui/DownloadCVButton';
 
 const ResumePage = () => {
   return (
@@ -22,15 +22,7 @@ const ResumePage = () => {
         <Skills />
         <Certifications />
 
-        {/* Download CV Button */}
-        <div className="mt-12 text-center">
-          <a
-            href="https://drive.google.com/uc?export=download&id=1BUEzUI6t4qAD_xgXE4KvGtGArB3rZrsZ"
-            className="inline-block px-8 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold shadow-lg hover:from-cyan-600 hover:to-blue-600 transition-all duration-300"
-          >
-            📄 Download CV
-          </a>
-        </div>
+        <DownloadCVButton />
       </div>
     </div>
   );
